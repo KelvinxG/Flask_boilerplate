@@ -1,0 +1,23 @@
+{% extends 'layout/base.html'%}
+{% block content %}
+
+<head>
+    <title>{% block title %} Home {% endblock %}</title>
+    <link rel="stylesheet" a href="{{url_for('static',filename='css/index.css')}}">
+</head>
+
+<div class ="container">
+    
+
+    <div class="somebox"> 
+      <h1>Hello,world</h1>
+
+      <input type="text">
+      <button type="submit">Submit</button>
+
+      <a class="index-a" href="{{url_for('views.login')}}">Login</a>
+      <a class="index-a" href="{{url_for('views.register')}}">Don't have an account? Create one</a>
+    </div>
+</div>
+
+{% endblock %}

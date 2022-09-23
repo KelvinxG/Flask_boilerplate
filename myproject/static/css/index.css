@@ -1,0 +1,19 @@
+body{
+
+
+    background-color: aliceblue;
+    text-align: center;
+}
+.somebox{
+    background-color: violet;
+    margin-top: 5rem;
+    height: 25rem;
+    width: auto;
+
+    border-radius: 20px;
+}
+
+.h1{
+ 
+    text-align: center;
+}
